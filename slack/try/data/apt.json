@@ -1,0 +1,64 @@
+{
+  "response_type":"in_channel",
+  "attachments":[
+
+    {
+      "title":":medal: The Pennsylvanian",
+      "title_link":"http://www.apartments.com/the-pennsylvanian-pittsburgh-pa/xtp479p/",
+      "fields":[
+        {
+          "title":"price",
+          "value":"$1300",
+          "short":true
+        },
+        {
+          "title":"size",
+          "value":"1B1B",
+          "short":true
+        },
+        {
+          "title":"address",
+          "value":"str 1",
+          "short":false
+        },
+        {
+          "title":"contact",
+          "value":"866-350-8444",
+          "short":true
+        }
+      ],
+      "actions":[
+        {
+          "type":"button",
+          "name":"like",
+          "value":"like",
+          "text": ":heart:",
+          "style":"primary"
+        },
+        {
+          "type":"button",
+          "name":"show_details",
+          "value":"detail",
+          "text": "details...",
+          "style":"default"
+        },
+        {
+          "type":"button",
+          "name":"next",
+          "value":"next",
+          "text":" :medal: next apartment...",
+          "style":"default"
+        },
+        {
+          "type":"button",
+          "name":"done",
+          "value":"done",
+          "text":"done",
+          "style":"danger"
+        }
+      ],
+      "color":"red",
+      "callback_id":"apt.search.main"
+    }
+  ]
+}

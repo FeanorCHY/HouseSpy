@@ -1,0 +1,26 @@
+{
+  "response_type":"in_channel",
+  "attachments":[
+    {
+      "title":"images",
+      "image_url":"http://images1.apartments.com/i2/bVGCzMYmBCpZRHGpPAeE5RNgwrU894CTRCyOCD1htbM/110/the-pennsylvanian-pittsburgh-pa-primary-photo.jpg",
+      "callback_id":"apt.search.image",
+      "actions":[
+        {
+          "type":"button",
+          "name":"like",
+          "value":"like",
+          "text": ":arrow_left:prev",
+          "style":"default"
+        },
+        {
+          "type":"button",
+          "name":"show_details",
+          "value":"detail",
+          "text": ":arrow_right:next",
+          "style":"default"
+        }
+      ]
+    }
+  ]
+}

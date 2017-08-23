@@ -1,0 +1,23 @@
+{
+  "text":"Hi I'm homespy, anything need help?",
+  "attachments":[
+    {
+      "callback_id":"welcome",
+      "image_url":"http://artistsvalley.com/images/icons/Network%20Security%20Icons/Home%20Spy/256x256/Home%20Spy.jpg",
+      "text":"",
+      "actions":[
+        {
+          "text":"find apartment",
+          "name":"find_apartment",
+          "value":"apt.search.init",
+          "type":"button"
+        },
+        {
+          "text":"find roomate",
+          "name":"find_roomate",
+          "type":"button"
+        }
+      ]
+    }
+  ]
+}
