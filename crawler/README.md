@@ -1,1 +1,1 @@
-# Web Scrwler using Nutch framework in python
+# Web crawler using Nutch framework in python
